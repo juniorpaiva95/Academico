@@ -1,0 +1,114 @@
+[EL Fine]: server: 2017-08-19 19:45:02.031--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2017-08-19 19:45:02.233--ServerSession(1216590855)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Horario] is set to [FIELD].
+[EL Config]: metadata: 2017-08-19 19:45:02.282--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field filmes] is being defaulted to: class modelo.Filme.
+[EL Config]: metadata: 2017-08-19 19:45:02.284--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field sessoes] is being defaulted to: class modelo.Sessao.
+[EL Config]: metadata: 2017-08-19 19:45:02.285--ServerSession(1216590855)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Filme] is set to [FIELD].
+[EL Config]: metadata: 2017-08-19 19:45:02.289--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field horario] is being defaulted to: class modelo.Horario.
+[EL Config]: metadata: 2017-08-19 19:45:02.29--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field sessoes] is being defaulted to: class modelo.Sessao.
+[EL Config]: metadata: 2017-08-19 19:45:02.291--ServerSession(1216590855)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Pessoa] is set to [FIELD].
+[EL Config]: metadata: 2017-08-19 19:45:02.292--ServerSession(1216590855)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Funcionario] is set to [FIELD].
+[EL Config]: metadata: 2017-08-19 19:45:02.292--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field sala] is being defaulted to: class modelo.Sala.
+[EL Config]: metadata: 2017-08-19 19:45:02.293--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field cargo] is being defaulted to: class modelo.Cargo.
+[EL Config]: metadata: 2017-08-19 19:45:02.293--ServerSession(1216590855)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Ingresso] is set to [FIELD].
+[EL Config]: metadata: 2017-08-19 19:45:02.294--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to one mapping element [field sessao] is being defaulted to: class modelo.Sessao.
+[EL Config]: metadata: 2017-08-19 19:45:02.295--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to one mapping element [field filme] is being defaulted to: class modelo.Filme.
+[EL Config]: metadata: 2017-08-19 19:45:02.296--ServerSession(1216590855)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Cargo] is set to [FIELD].
+[EL Config]: metadata: 2017-08-19 19:45:02.297--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field funcionarios] is being defaulted to: class modelo.Funcionario.
+[EL Config]: metadata: 2017-08-19 19:45:02.298--ServerSession(1216590855)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Sala] is set to [FIELD].
+[EL Config]: metadata: 2017-08-19 19:45:02.299--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field funcionarios] is being defaulted to: class modelo.Funcionario.
+[EL Config]: metadata: 2017-08-19 19:45:02.299--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field sessoes] is being defaulted to: class modelo.Sessao.
+[EL Config]: metadata: 2017-08-19 19:45:02.3--ServerSession(1216590855)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Sessao] is set to [FIELD].
+[EL Config]: metadata: 2017-08-19 19:45:02.3--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field horario] is being defaulted to: class modelo.Horario.
+[EL Config]: metadata: 2017-08-19 19:45:02.301--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field sala] is being defaulted to: class modelo.Sala.
+[EL Config]: metadata: 2017-08-19 19:45:02.301--ServerSession(1216590855)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field filme] is being defaulted to: class modelo.Filme.
+[EL Config]: metadata: 2017-08-19 19:45:02.302--ServerSession(1216590855)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Horario] is being defaulted to: Horario.
+[EL Config]: metadata: 2017-08-19 19:45:02.305--ServerSession(1216590855)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Horario] is being defaulted to: HORARIO.
+[EL Config]: metadata: 2017-08-19 19:45:02.323--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [hora] is being defaulted to: HORA.
+[EL Config]: metadata: 2017-08-19 19:45:02.326--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.327--ServerSession(1216590855)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Filme] is being defaulted to: Filme.
+[EL Config]: metadata: 2017-08-19 19:45:02.327--ServerSession(1216590855)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Filme] is being defaulted to: FILME.
+[EL Config]: metadata: 2017-08-19 19:45:02.328--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [sinopse] is being defaulted to: SINOPSE.
+[EL Config]: metadata: 2017-08-19 19:45:02.329--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [updated_at] is being defaulted to: UPDATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.329--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [titulo] is being defaulted to: TITULO.
+[EL Config]: metadata: 2017-08-19 19:45:02.33--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [created_at] is being defaulted to: CREATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.33--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.33--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [duracao] is being defaulted to: DURACAO.
+[EL Config]: metadata: 2017-08-19 19:45:02.331--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [censura] is being defaulted to: CENSURA.
+[EL Config]: metadata: 2017-08-19 19:45:02.331--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [data_lanc] is being defaulted to: DATA_LANC.
+[EL Config]: metadata: 2017-08-19 19:45:02.331--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [autor] is being defaulted to: AUTOR.
+[EL Config]: metadata: 2017-08-19 19:45:02.332--ServerSession(1216590855)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Funcionario] is being defaulted to: Funcionario.
+[EL Config]: metadata: 2017-08-19 19:45:02.332--ServerSession(1216590855)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Pessoa] is being defaulted to: Pessoa.
+[EL Config]: metadata: 2017-08-19 19:45:02.332--ServerSession(1216590855)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Pessoa] is being defaulted to: PESSOA.
+[EL Config]: metadata: 2017-08-19 19:45:02.334--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [updated_at] is being defaulted to: UPDATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.335--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [created_at] is being defaulted to: CREATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.337--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2017-08-19 19:45:02.337--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.338--ServerSession(1216590855)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Funcionario] is being defaulted to: FUNCIONARIO.
+[EL Config]: metadata: 2017-08-19 19:45:02.347--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [updated_at] is being defaulted to: UPDATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.347--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [created_at] is being defaulted to: CREATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.347--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2017-08-19 19:45:02.348--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.348--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [data_nasc] is being defaulted to: DATA_NASC.
+[EL Config]: metadata: 2017-08-19 19:45:02.349--ServerSession(1216590855)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Ingresso] is being defaulted to: Ingresso.
+[EL Config]: metadata: 2017-08-19 19:45:02.35--ServerSession(1216590855)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Ingresso] is being defaulted to: INGRESSO.
+[EL Config]: metadata: 2017-08-19 19:45:02.351--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [valor_inteira] is being defaulted to: VALOR_INTEIRA.
+[EL Config]: metadata: 2017-08-19 19:45:02.354--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [updated_at] is being defaulted to: UPDATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.355--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [created_at] is being defaulted to: CREATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.355--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [valor_meia] is being defaulted to: VALOR_MEIA.
+[EL Config]: metadata: 2017-08-19 19:45:02.355--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.355--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [quantidade] is being defaulted to: QUANTIDADE.
+[EL Config]: metadata: 2017-08-19 19:45:02.356--ServerSession(1216590855)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Cargo] is being defaulted to: Cargo.
+[EL Config]: metadata: 2017-08-19 19:45:02.356--ServerSession(1216590855)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Cargo] is being defaulted to: CARGO.
+[EL Config]: metadata: 2017-08-19 19:45:02.357--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [updated_at] is being defaulted to: UPDATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.357--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [salario] is being defaulted to: SALARIO.
+[EL Config]: metadata: 2017-08-19 19:45:02.358--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [created_at] is being defaulted to: CREATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.359--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2017-08-19 19:45:02.359--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.359--ServerSession(1216590855)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Sala] is being defaulted to: Sala.
+[EL Config]: metadata: 2017-08-19 19:45:02.36--ServerSession(1216590855)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Sala] is being defaulted to: SALA.
+[EL Config]: metadata: 2017-08-19 19:45:02.36--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [capacidade] is being defaulted to: CAPACIDADE.
+[EL Config]: metadata: 2017-08-19 19:45:02.361--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2017-08-19 19:45:02.361--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.361--ServerSession(1216590855)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Sessao] is being defaulted to: Sessao.
+[EL Config]: metadata: 2017-08-19 19:45:02.362--ServerSession(1216590855)--Thread(Thread[main,5,main])--The table name for entity [class modelo.Sessao] is being defaulted to: SESSAO.
+[EL Config]: metadata: 2017-08-19 19:45:02.362--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [data] is being defaulted to: DATA.
+[EL Config]: metadata: 2017-08-19 19:45:02.362--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [updated_at] is being defaulted to: UPDATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.363--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [created_at] is being defaulted to: CREATED_AT.
+[EL Config]: metadata: 2017-08-19 19:45:02.363--ServerSession(1216590855)--Thread(Thread[main,5,main])--The column name for element [id] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.38--ServerSession(1216590855)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field horario] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.38--ServerSession(1216590855)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [horario] is being defaulted to: HORARIO_ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.381--ServerSession(1216590855)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field sala] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.381--ServerSession(1216590855)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [sala] is being defaulted to: SALA_ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.382--ServerSession(1216590855)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field cargo] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.382--ServerSession(1216590855)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [cargo] is being defaulted to: CARGO_ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.382--ServerSession(1216590855)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field sessao] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.382--ServerSession(1216590855)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [sessao] is being defaulted to: SESSAO_ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.382--ServerSession(1216590855)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field filme] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.383--ServerSession(1216590855)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [filme] is being defaulted to: FILME_ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.383--ServerSession(1216590855)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field horario] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.386--ServerSession(1216590855)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [horario] is being defaulted to: HORARIO_ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.387--ServerSession(1216590855)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field sala] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.387--ServerSession(1216590855)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [sala] is being defaulted to: SALA_ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.387--ServerSession(1216590855)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field filme] is being defaulted to: ID.
+[EL Config]: metadata: 2017-08-19 19:45:02.387--ServerSession(1216590855)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [filme] is being defaulted to: FILME_ID.
+[EL Info]: 2017-08-19 19:45:02.789--ServerSession(1216590855)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.6.4.v20160829-44060b6
+[EL Fine]: connection: 2017-08-19 19:45:02.901--Thread(Thread[main,5,main])--Detected database platform: org.eclipse.persistence.platform.database.PostgreSQLPlatform
+[EL Config]: connection: 2017-08-19 19:45:02.914--ServerSession(1216590855)--Connection(1911152052)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+	platform=>PostgreSQLPlatform
+	user name=> "postgres"
+	datasource URL=> "jdbc:postgresql://localhost:5432/cinema"
+))
+[EL Config]: connection: 2017-08-19 19:45:02.92--ServerSession(1216590855)--Connection(961409111)--Thread(Thread[main,5,main])--Connected: jdbc:postgresql://localhost:5432/cinema
+	User: postgres
+	Database: PostgreSQL  Version: 9.5.8
+	Driver: PostgreSQL Native Driver  Version: PostgreSQL 9.4.1212.jre6
+[EL Info]: connection: 2017-08-19 19:45:03.053--ServerSession(1216590855)--Thread(Thread[main,5,main])--/file:/home/junior/Área de Trabalho/Projetos/Academico/Projeto POB - Cinema JPA/bin/_cinema login successful
+[EL Fine]: sql: 2017-08-19 19:45:03.183--ServerSession(1216590855)--Connection(961409111)--Thread(Thread[main,5,main])--SELECT ID, CREATED_AT, DATA, UPDATED_AT, FILME_ID, HORARIO_ID, SALA_ID FROM SESSAO
+[EL Fine]: sql: 2017-08-19 19:45:03.196--ServerSession(1216590855)--Connection(961409111)--Thread(Thread[main,5,main])--SELECT ID, AUTOR, CENSURA, CREATED_AT, DATA_LANC, DURACAO, SINOPSE, TITULO, UPDATED_AT, HORARIO_ID FROM FILME WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2017-08-19 19:45:03.203--ServerSession(1216590855)--Connection(961409111)--Thread(Thread[main,5,main])--SELECT ID, HORA FROM HORARIO WHERE (ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2017-08-19 19:45:03.206--ServerSession(1216590855)--Connection(961409111)--Thread(Thread[main,5,main])--SELECT ID, CAPACIDADE, NOME FROM SALA WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2017-08-19 19:45:03.212--ServerSession(1216590855)--Connection(961409111)--Thread(Thread[main,5,main])--SELECT ID, HORA FROM HORARIO WHERE (ID = ?)
+	bind => [6]
