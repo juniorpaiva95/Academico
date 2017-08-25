@@ -91,6 +91,25 @@ public class Fachada {
 		daofuncionario.apagar(f);
 		DAO.efetivar();
 	}
+	public static Funcionario atualizarFuncionario(String nome, String novo_nome, String cargo, Date data_nasc) throws Exception{
+		DAO.iniciar();
+		Funcionario f = daofuncionario.localizarPeloNome(nome);
+		Cargo c = daocargo.localizarPeloNome(cargo);
+		if(f == null) {
+			throw new Exception("Funcionario " + nome + " não encontrado");
+		}
+		if(c == null) {
+			throw new Exception("Cargo " + cargo + " não encontrado");
+		}
+		
+		f.setCargo(c);
+		f.setData_nasc(data_nasc);
+		f.setUpdated_at(new Date());
+		f.setNome(novo_nome);
+		daofuncionario.atualizar(f);
+		DAO.efetivar();
+		return f;
+	}
 	public static Cargo atualizarCargo(String nome, String novo_nome, double novo_salario) throws Exception{
 		DAO.iniciar();
 		
@@ -217,6 +236,10 @@ public class Fachada {
 	
 	public static List<Funcionario> consultarGerentes(String cargo) throws Exception {
 		List<Funcionario> funcionarios = daofuncionario.consultarFuncionariosGerente(cargo);
+		return funcionarios;
+	}
+	public static List<Funcionario> consultarAniversariantesDoMes() throws Exception {
+		List<Funcionario> funcionarios = daofuncionario.consultarAniversariantesDoMes();
 		return funcionarios;
 	}
 }

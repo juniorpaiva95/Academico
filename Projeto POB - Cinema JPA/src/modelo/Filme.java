@@ -16,6 +16,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import util.Utilitaries;
+
 @NamedQueries({
 	@NamedQuery(name = "Filme.consultarTodos",
 		    query= "SELECT f FROM Filme f"),
@@ -115,12 +117,12 @@ public class Filme {
 	public String toString() {
 		String texto_sessoes = "";
 		for (Sessao sessao : sessoes) {
-			texto_sessoes += "Horário : " + sessao.getHorario() + "\nSala: " + sessao.getSala().getNome();
+			texto_sessoes += "Horário : " + Utilitaries.formatarHora(sessao.getHorario() .getHora())+ "\n\tSala: " + sessao.getSala().getNome();
 		}
 		return "Filme ID:" + id + "\nDuracao:" + duracao + "min \n" + (autor != null ? "Autor: " + autor + "\n" : "")
 				+ "Censura: " + censura + "\n" + (sinopse != null ? "Sinopse: " + sinopse + "\n" : "")
 				+ (titulo != null ? "Titulo: " + titulo + "\n" : "")
 				+ (data_lanc != null ? "Data de Lançamento: " + data_lanc + "\n" : "")
-				+ (sessoes != null ? "Sessoes: " + texto_sessoes+ ", " : "") + "\n";
+				+ (sessoes != null ? "Sessoes: \n\t" + texto_sessoes+ " \n" : "") + "\n";
 	}
 }

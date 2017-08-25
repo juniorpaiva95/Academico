@@ -4,6 +4,7 @@
 package daojpa;
 
 
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.NoResultException;
@@ -33,6 +34,17 @@ public class DAOFuncionario  extends DAO<Funcionario>{
 			
 			query = manager.createNamedQuery("Funcionario.consultarGerentes");
 			query.setParameter("cargo", c.getNome());
+			return query.getResultList();
+		} catch (NoResultException e) {
+			return null;
+		}
+	}
+	
+	public List<Funcionario> consultarAniversariantesDoMes(){
+		try {
+			Date month = new Date();
+			Query query = manager.createQuery("SELECT f FROM Funcionario f WHERE EXTRACT(MONTH FROM f.data_nasc) = :data");
+			query.setParameter("data", month.getMonth() + 1);
 			return query.getResultList();
 		} catch (NoResultException e) {
 			return null;
